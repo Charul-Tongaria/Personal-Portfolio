@@ -9,12 +9,13 @@
     <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 <body>
+
+    <!-- Header start  -->
     <header>
         <div class="logo-container">
             <img src="./images/home/logo.png" class="logo" />
             <div class="logo-text">harul Tongaria</div>
           </div>
-        <!-- <img src="./images/logo.png" alt="Logo" class="logo"> -->
         <nav>
             <ul class="nav-links" style="font-family:initial">
                 <li><a href="#home">Home</a></li>
@@ -27,6 +28,9 @@
             </div>
         </nav>
     </header>
+    <!-- Header end -->
+
+    <!-- Home start -->
     <main>
         <section id="home" class="home-section">
             <div class="intro-text">
@@ -55,7 +59,9 @@
                 <img src="./images/assets/CharulTongaria.png" alt="My Photo">
             </div>
         </section>
+        <!-- Home end -->
 
+        <!-- Portfolio start -->
         <section id="portfolio" class="portfolio-section">
             <div class="portfolio-section" id="portfolio">
                 <h1><i><u><b>Portfolio</b></u></i></h1>
@@ -72,7 +78,6 @@
                             <h3>High School</h3>
                             <p>2020-2021<br/>Oxford International Public School, Jaipur</p>
                         </div>
-                        <!-- Repeat for more education items -->
                     </div>
                     <div class="portfolio-column">
                         <h2><u>Experience</u></h2>
@@ -86,7 +91,6 @@
                             <h3>Django Developer Intern</h3>
                             <p>July 2022 - September 2022<br/>Segnotech Pvt Ltd, Jaipur </p>
                         </div>
-                        <!-- Repeat for more experience items -->
                     </div>
                     <div class="portfolio-column">
                         <h2><u>Achievements</u></h2>
@@ -95,7 +99,6 @@
                             <h3>NPTEL Certifications</h3>
                             <p>Honors in Bachelor of Technology by completing 8+ NPTEL courses</p>
                         </div>
-                        <!-- Repeat for more achievement items -->
                     </div>
                 </div>
                 <div class="skills-section">
@@ -112,14 +115,14 @@
                         <img src="./images/stack/node.png" alt="Skill 9">
                         <img src="./images/stack/mysql.png" alt="Skill 10">
                         <img src="./images/stack/github.png" alt="Skill 11">
-                        <!-- Repeat for more skill items -->
                     </div>
                 </div>
             </div>
             
         </section>
+        <!-- Portfolio end -->
 
-        <!--Project Section-->
+        <!--Project start-->
       <nav class=”navbar fixed-top navbar-expand-md navbar-light bg-light”></nav>
       <div class="project-section">
         <h2 class="page-header"><b><i><u>Projects</u></i></b></h2>
@@ -239,13 +242,14 @@
         </div>
 
       </div>
+      <!-- Project end -->
 
-
+      <!-- Contact start -->
         <div class="contact-section" id="contact">
             <h1><b><i><u>Get in touch</u></i></b></h1>
             <div class="contact-content">
                 <div class="contact-form">
-                    <form id="contactForm">
+                    <form id="contactForm" action="https://formsubmit.co/69c8f22c593f8e780a7c28e4369fd1d4" method="POST">
                         <div class="form-group">
                             <label for="name">Name:</label>
                             <input type="text" id="name" name="name" required>
@@ -278,51 +282,23 @@
                 </div>
             </div>
         </div>
+        <!-- Contact end -->
         
         
     </main>
 
+    <!-- Footer start -->
     <footer>
         <div class="footer-content">
             <p>&copy; 2024 Charul Tongaria. All rights reserved.</p>
         </div>
     </footer>
+    <!-- Footer end -->
 
-    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        function sendEmail(){
-            Email.send({
-                Host : "smtp.gmail.com",
-                Username : "charultongaria.1703@gmail.com",
-                Password : "@_.Cyberpunk200317.",
-                To : 'charultongaria.1703@gmail.com',
-                From : document.getElementById("email").value,
-                Subject : "New contact form enquiry",
-                Body : "And this is the body"
-            }).then(
-                message => alert(message)
-            );
-        }
-    </script> -->
-    <script>
-        document.getElementById('contactForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-    
-            var name = document.getElementById('name').value;
-            var contact = document.getElementById('contact').value;
-            var email = document.getElementById('email').value;
-            var message = document.getElementById('message').value;
-    
-            Email.send({
-                SecureToken : "your-smtpjs-secure-token", // Replace with your actual secure token
-                To : 'charultongaria.1703@gmail.com', // Replace with your actual recipient email
-                From : email,
-                Subject : "New Contact Form Message from " + name,
-                Body : "Name: " + name + "<br>Contact Number: " + contact + "<br>Email: " + email + "<br>Message: " + message
-            }).then(
-              message => alert(message)
-            );
-        });
+    <!-- Script for contact form start -->
+    <script src="https://smtpjs.com/v3/smtp.js">
     </script>
+    <script src="./script.js"></script>
+    <!-- Script for contact form end-->
 </body>
 </html>
