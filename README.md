@@ -1,0 +1,7 @@
+![Screenshot 2024-06-10 175258](https://github.com/Charul-Tongaria/Personal-Portfolio/assets/109429009/b036e00f-5451-4430-acc9-2565dd58a084)
+![Screenshot 2024-06-10 175246](https://github.com/Charul-Tongaria/Personal-Portfolio/assets/109429009/23c1af69-f841-4053-88a9-3408d647df16)
+![Screenshot 2024-06-10 175235](https://github.com/Charul-Tongaria/Personal-Portfolio/assets/109429009/5e688d38-d10a-47b4-b58d-43d03bb7e115)
+![Screenshot 2024-06-10 175221](https://github.com/Charul-Tongaria/Personal-Portfolio/assets/109429009/249378a2-f8ea-441b-87bc-03dfbd64f7eb)
+![Screenshot 2024-06-10 175205](https://github.com/Charul-Tongaria/Personal-Portfolio/assets/109429009/fafd734b-f9dc-453e-b8ef-67900fde839f)
+![Screenshot 2024-06-10 124355](https://github.com/Charul-Tongaria/Personal-Portfolio/assets/109429009/2c9b04f4-56f3-4d84-993d-b3d8e92ebeda)
+![Screenshot 2024-06-10 123955](https://github.com/Charul-Tongaria/Personal-Portfolio/assets/109429009/170a3b90-cf7f-4168-8b84-703acc5f43d9)
