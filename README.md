@@ -18,7 +18,6 @@
 
 <img src="https://github.com/Charul-Tongaria/Personal-Portfolio/assets/109429009/23c1af69-f841-4053-88a9-3408d647df16" alt="project-screenshot" width="1000" height="400/">
 
-<img src="https://github.com/Chttps://github.com/Charul-Tongaria/Personal-Portfolio/assets/109429009/b036e00f-5451-4430-acc9-2565dd58a084harul-Tongaria/Portfolio-Website/assets/109429009/35681055-b51e-4c8a-84f5-902cdfc67cbe" alt="project-screenshot" width="1000" height="400/">
 
 <img src="https://github.com/Charul-Tongaria/Personal-Portfolio/assets/109429009/b036e00f-5451-4430-acc9-2565dd58a084" alt="project-screenshot" width="1000" height="400/">
 
