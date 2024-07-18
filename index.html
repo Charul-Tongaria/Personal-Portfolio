@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website - Charul Tongaria</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+
+    <!-- Header start  -->
+    <header>
+        <div class="logo-container">
+            <img src="./images/home/logo.png" class="logo" />
+            <div class="logo-text">harul Tongaria</div>
+          </div>
+        <nav>
+            <ul class="nav-links" style="font-family:initial">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Get in touch</a></li>
+            </ul>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <img src="./images/home/menu-icon.png" alt="Menu Icon">
+            </div>
+        </nav>
+    </header>
+    <!-- Header end -->
+
+    <!-- Home start -->
+    <main>
+        <section id="home" class="home-section">
+            <div class="intro-text">
+                <h1>Hello! My name is Charul Tongaria</h1>
+                <h2>I am a Software Engineer</h2>
+                <p>Welcome to my portfolio! Let's explore the tech-centric world. 
+                    I embarked on this exciting journey as a curious exploration. With a keen eye for detail and a love for problem-solving, I thrive in the world of
+                    design and technology. My journey in the realm of digital arts and development has been
+                    marked by a relentless pursuit of excellence and a commitment to
+                    continuous learning. Inherited and honed over time, my skills are a testament to my
+                    dedication and enthusiasm for my craft. Here's a glimpse into the skill set I bring to the table.</p>
+                <div class="social-icons">
+                    <a href="mailto:charultongaria.1703@gmail.com"><img src="./images/logos/mail.png" alt="Gmail"></a>
+                    <a href="https://www.linkedin.com/in/charul-tongaria"><img src="./images/logos/linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://github.com/Charul-Tongaria"><img src="./images/logos/github.png" alt="GitHub"></a>
+                    <a href="https://leetcode.com/u/charul_tongaria/"><img src="./images/logos/leetcode.png" alt="Leetcode"></a>
+                    <a href="https://wa.me/8946951105"><img src="./images/logos/whatsapp.png" alt="WhatsApp"></a>
+                    <a href="https://x.com/CTongaria?s=08"><img src="./images/logos/x.png" alt="Twitter"></a>
+                </div>
+                <div class="buttons">
+                    <a href="#portfolio" class="button">Read More</a>
+                    <a href="./images/assets/CharulTongaria-PCE21CS037.pdf" download class="button">Download CV</a>
+                </div>
+            </div>
+            <div class="intro-photo">
+                <img src="./images/assets/user1.png" alt="My Photo">
+            </div>
+        </section>
+        <!-- Home end -->
+
+        <!-- Portfolio start -->
+        <section id="portfolio" class="portfolio-section">
+            <div class="portfolio-section" id="portfolio">
+                <h1 class="portfolio-heading"><i><u><b>Portfolio</b></u></i></h1>
+                <div class="portfolio-grid">
+                    <div class="portfolio-column">
+                        <h2><u>Education</u></h2>
+                        <div class="portfolio-box" style="background-image: url('education.jpg');">
+                            <img src="./images/logos/education.png" alt="Education Icon">
+                            <h3>Bachelor of Technology</h3>
+                            <p>2021-2025<br/>Poornima College of Engineering, Jaipur<br/>Computer Science and Engineering</p>
+                        </div>
+                        <div class="portfolio-box" style="background-image: url('education.jpg');">
+                            <img src="./images/logos/education.png" alt="Education Icon">
+                            <h3>High School</h3>
+                            <p>2020-2021<br/>Oxford International Public School, Jaipur</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-column">
+                        <h2><u>Experience</u></h2>
+                        <div class="portfolio-box" style="background-image: url('experience1.jpg');">
+                            <img src="./images/logos/experience.png" alt="Experience Icon">
+                            <h3>MERN Stack Developer Intern</h3>
+                            <p>July 2023 - September 2023<br/>Kistechnosoftware Pvt Ltd, Jaipur </p>
+                        </div>
+                        <div class="portfolio-box" style="background-image: url('experience1.jpg');">
+                            <img src="./images/logos/experience.png" alt="Experience Icon">
+                            <h3>Django Developer Intern</h3>
+                            <p>July 2022 - September 2022<br/>Segnotech Pvt Ltd, Jaipur </p>
+                        </div>
+                    </div>
+                    <div class="portfolio-column">
+                        <h2><u>Achievements</u></h2>
+                        <div class="portfolio-box" style="background-image: url('achievement1.jpg');">
+                            <img src="./images/logos/achievement.png" alt="Achievement Icon">
+                            <h3>NPTEL Certifications</h3>
+                            <p>Honors in Bachelor of Technology by completing 8+ NPTEL courses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-section">
+                    <h1 class="tech-stack"><i><u><b>Tech Stack</b></u></i></h1>
+                    <div class="skills-icons">
+                        <img src="./images/stack/html.png" alt="Skill 1">
+                        <img src="./images/stack/css.png" alt="Skill 2">
+                        <img src="./images/stack/tailwindcss.png" alt="Skill 3">
+                        <img src="./images/stack/django.png" alt="Skill 4">
+                        <img src="./images/stack/django_orm.png" alt="Skill 5">
+                        <img src="./images/stack/mongodb.png" alt="Skill 6">
+                        <img src="./images/stack/express.png" alt="Skill 7">
+                        <img src="./images/stack/react.png" alt="Skill 8">
+                        <img src="./images/stack/node.png" alt="Skill 9">
+                        <img src="./images/stack/mysql.png" alt="Skill 10">
+                        <img src="./images/stack/github.png" alt="Skill 11">
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <!-- Portfolio end -->
+
+        <!--Project start-->
+      <nav class=”navbar fixed-top navbar-expand-md navbar-light bg-light”></nav>
+      <div class="project-section">
+        <h2 class="page-header"><b><i><u>Projects</u></i></b></h2>
+
+        <div class="project-container" id="projects">
+          <div class="project-card" id="project1">
+            <div class="project-number project-number-right">01</div>
+            <div class="project-content project-content-left"></div>
+            <!--<img src="./images/projects/project1.png" class="project"> -->
+            <div class="project-content">
+              <div class="project-skills-container">
+                <img
+                  class="project-skill"
+                  src="./images/stack/html.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/css.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/django.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/django_orm.png"
+                  alt=""
+                />
+              </div>
+
+              <h2 class="project-heading">MyBlog</h2>
+
+              <div class="project-subheading">
+                Discover insights and share your thoughts on this dynamic
+                blogging platform. Engage with diverse content and connect with
+                like-minded individuals worldwide.Dive into a diverse array of topics ranging from lifestyle tips, travel adventures, technology trends, to personal reflections and beyond. Join our community of passionate writers and engaged readers as we explore, learn, and connect through the power of words.
+              </div>
+
+              <div class="btn-grp">
+                <a href="https://github.com/Charul-Tongaria/Django-Blog"><img src="./images/logos/github.png" alt="GitHub"></a>
+                <a href="https://github.com/Charul-Tongaria/Django-Blog"><img src="./images/logos/live_link.png" alt="Leetcode"></a>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-container" id="projects">
+          <div class="project-card" id="project2">
+            <div class="project-number project-number-right">02</div>
+            <div class="project-content project-content-left"></div>
+            <!--<img src="./images/projects/project1.png" class="project"> -->
+            <div class="project-content">
+              <div class="project-skills-container">
+                <img
+                  class="project-skill"
+                  src="./images/stack/html.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/tailwindcss.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/node.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/react.png"
+                  alt=""
+                />
+              </div>
+
+              <h2 class="project-heading">To-Do-List</h2>
+
+              <div class="project-subheading">
+                Easily manage tasks with our To-Do List Web App featuring customizable lists. Sync seamlessly across devices for productivity on-the-go. Stay organized and boost efficiency with our user-friendly interface.
+              </div>
+
+              <div class="btn-grp">
+                <a href="https://github.com/Charul-Tongaria/To-Do-List"><img src="./images/logos/github.png" alt="GitHub"></a>
+                <a href="https://to-do-webapp-mu.vercel.app/"><img src="./images/logos/live_link.png" alt="Leetcode"></a>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-container" id="projects">
+          <div class="project-card" id="project3">
+            <div class="project-number project-number-right">03</div>
+            <div class="project-content project-content-left"></div>
+            <!--<img src="./images/projects/project1.png" class="project"> -->
+            <div class="project-content">
+              <div class="project-skills-container">
+                <img
+                  class="project-skill"
+                  src="./images/stack/python.png"
+                  alt=""
+                />
+              </div>
+
+              <h2 class="project-heading">Dobble Game</h2>
+
+              <div class="project-subheading">
+                "Dobble" is a fast-paced observation game where players race to match symbols between cards. With its simple rules and endless replayability, it's perfect for family fun or quick gatherings with friends. Test your reflexes and enjoy the excitement of Dobble!              
+              </div>
+              <div class="btn-grp">
+                <a href="https://github.com/Charul-Tongaria/Dobble-Game"><img src="./images/logos/github.png" alt="GitHub"></a>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-container" id="projects">
+          <div class="project-card" id="project2">
+            <div class="project-number project-number-right">04</div>
+            <div class="project-content project-content-left"></div>
+            <!--<img src="./images/projects/project1.png" class="project"> -->
+            <div class="project-content">
+              <div class="project-skills-container">
+                <img
+                  class="project-skill"
+                  src="./images/stack/html.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/css.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/javascript.png"
+                  alt=""
+                />
+                <img
+                  class="project-skill"
+                  src="./images/stack/flask.png"
+                  alt=""
+                />
+              </div>
+
+              <h2 class="project-heading">Guess-The-Movie</h2>
+
+              <div class="project-subheading">
+                "Guess the Movie" is a Python-based game where players identify movies from hints and images. The game offers an engaging challenge for movie enthusiasts.
+              </div>
+
+              <div class="btn-grp">
+                <a href="https://github.com/Charul-Tongaria/Guess-The-Movie"><img src="./images/logos/github.png" alt="GitHub"></a>
+                <a href="https://guess-the-movie-dusky.vercel.app/"><img src="./images/logos/live_link.png" alt="Leetcode"></a>
+            </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- Project end -->
+
+      <!-- Contact start -->
+        <div class="contact-section" id="contact">
+            <h1><b><i><u>Get in touch</u></i></b></h1>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm" action="https://formsubmit.co/69c8f22c593f8e780a7c28e4369fd1d4" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact">Contact Number:</label>
+                            <input type="text" id="contact" name="contact" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="social-icons-container">
+                    <img src="./images/logos/lets_connect.png" alt="Your Image" class="contact-image">
+                    <div class="social-icons">
+                        <a href="mailto:charultongaria.1703@gmail.com"><img src="./images/logos/mail.png" alt="Gmail"></a>
+                        <a href="https://www.linkedin.com/in/charul-tongaria"><img src="./images/logos/linkedin.png" alt="LinkedIn"></a>
+                        <a href="https://github.com/Charul-Tongaria"><img src="./images/logos/github.png" alt="GitHub"></a>
+                        <a href="https://leetcode.com/u/charul_tongaria/"><img src="./images/logos/leetcode.png" alt="Leetcode"></a>
+                        <a href="https://wa.me/8946951105"><img src="./images/logos/whatsapp.png" alt="WhatsApp"></a>
+                        <a href="https://x.com/CTongaria?s=08"><img src="./images/logos/x.png" alt="Twitter"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact end -->
+        
+        
+    </main>
+
+    <!-- Footer start -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Charul Tongaria. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Script for contact form start -->
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="./script.js"></script>
+    <!-- Script for contact form end-->
+</body>
+</html>
